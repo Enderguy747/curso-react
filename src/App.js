@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
+import Estado from './components/Estado';
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
             funcion={(num) => num * num}
             elementoReact={<i>Esto es un elemento de react</i>}
             componenteReact={<Componente msg="soy un componente mandado por props" />}/>
+            <hr/>
+            <Estado/>
         </section>
 
       </header>
