@@ -4,6 +4,8 @@ import './App.css';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 
 export default function App() {
   return (
@@ -24,6 +26,10 @@ export default function App() {
             componenteReact={<Componente msg="soy un componente mandado por props" />}/>
             <hr/>
             <Estado/>
+            <hr/>
+            <RenderizadoCondicional/>
+            <hr/>
+            <RenderizadoElementos/>
         </section>
 
       </header>
